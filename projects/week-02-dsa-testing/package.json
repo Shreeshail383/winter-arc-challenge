@@ -1,0 +1,10 @@
+{
+  "name": "week-02-dsa-testing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:python": "python -m pytest python/test_solutions.py -v",
+    "test:js": "node --test javascript/solutions.test.js",
+    "test": "npm run test:python && npm run test:js"
+  }
+}
